@@ -68,7 +68,7 @@ def getBcoinName(crypto):
 
 @client.event 
 async def on_ready():
-    print('bot is online as {0.user}'.format(client))
+    print('BOT has online as {0.user}'.format(client))
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="-help"))
  
 @client.event 
